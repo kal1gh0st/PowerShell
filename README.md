@@ -1,4 +1,6 @@
 # PowerShell
+![immagine](https://user-images.githubusercontent.com/56889513/117020804-10948300-acf7-11eb-962b-dc34daedaead.png)
+
 Deployment Example
 
 This deployment script shows some of the benefits of decoupling settings from the script itself, in fact all the settings are stored in a single JSON file in the config folder.
