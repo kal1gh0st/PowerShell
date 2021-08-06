@@ -9,7 +9,7 @@ _Splitting_ the deployment file and importing all other sections with _dot-sourc
 
 Using _Pester_ and writing some _Unit and Integration tests_ for TEST environment task of creating a subfolder offers the opportunity of checking the _code coverage of 100%_ of our source code.
 ~~~~ 
-PS D:\Paolo\Git\Blog\PowerShell\Deployment\lib> Invoke-Pester .\New-SubFolderWithDate.Test.ps1 -CodeCoverage .\New-SubFo
+PS D:\kal1gh0st\Git\Blog\PowerShell\Deployment\lib> Invoke-Pester .\New-SubFolderWithDate.Test.ps1 -CodeCoverage .\New-SubFo
 lderWithDate.ps1
 
 
@@ -28,8 +28,8 @@ In brief, this deployment script should prompt the Environment, Project and vers
 
 Output :
 ~~~~ 
-PS D:\Paolo\Git\Blog\PowerShell\Deployment> .\Deployment.ps1
-[PROD] MyPlayground - Version: 1.0.0
+PS D:\kal1gh0st\Git\Blog\PowerShell\Deployment> .\Deployment.ps1
+[PROD] MyPlayground - Version: 1.0.1
 Artefact Downloaded : Proxy Functions, Latest Release
 Artefact Downloaded : Set-HighPerformance, Latest Release
 ~~~~ 
