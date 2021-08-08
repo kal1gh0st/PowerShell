@@ -6,7 +6,6 @@
 .EXAMPLE
    Send-EMailWithSendGrid -from "email@domain" -to "email@domain" -ApiKey "MY_SENDGRID_API_KEY" -Body "Test 1..2..3!" -Subject "Sendgrid Test"
 .NOTES
-   Author Paolo Frigo,  https://www.scriptinglibrary.com
 #>
 function Send-EmailWithSendGrid {
      Param
