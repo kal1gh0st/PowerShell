@@ -24,7 +24,6 @@
     10.10.1.3
     10.10.1.5
 .NOTES
-    Author:  Paolo Frigo, https://www.scriptinglibrary.com
 #>
 
 function Find-AvailableIP {
