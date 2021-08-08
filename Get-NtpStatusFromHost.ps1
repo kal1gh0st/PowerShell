@@ -25,7 +25,7 @@ function Get-NTPStatusFromHost {
             get-adcomputer -searchbase ‘OU=workstations,dc=contoso,dc=com’ -filter * -property * | select name  | Get-NTPStatusFromHost
             This shows the NTP Status for all the workstation in AD.
         .Notes
-              Author: Paolo Frigo - https://www.scriptinglibrary.com
+
     #>
     Param(
         [Parameter(Mandatory = $true,
