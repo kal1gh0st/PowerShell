@@ -2,7 +2,6 @@
 # More info on:
 # https://github.com/RamblingCookieMonster/PowerShell/blob/master/Get-InstalledSoftware.ps1
 
-# I'm just using sharing this implementation on scriptinglibary.com 
 
 function Get-InstalledSoftware {
 <#
