@@ -1,10 +1,5 @@
 #requires -module activedirectory
 
-# This script requires a rdg.xml template and generates an rdg file for
-# RDMan - Remote Desktop Connection Manager
-
-#Paolo Frigo, https://www.scriptinglibrary.com
-
 #$ComputerListFromAD = get-adcomputer -Filter * -Properties *
 
 #Generating a list of fake servers from server1 to server100 instead of querying AD
