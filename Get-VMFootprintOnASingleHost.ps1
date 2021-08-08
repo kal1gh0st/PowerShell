@@ -1,9 +1,5 @@
 #requires -runasadministrator
 
-#
-# Paolo Frigo, https://www.scriptinglibrary.com
-# This script will get the size of all VHDX files of all VMs hosted on your Hyper-V
-#
 # notes -   Please have a look to get-vmfootprintbyenv.ps1 in case you want to run this
 #           script against multiple hyper-v hosts
 
