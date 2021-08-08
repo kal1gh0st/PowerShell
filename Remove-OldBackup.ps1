@@ -9,7 +9,6 @@
     .Notes
         Remember to use the dot-surcing notation to import this function before calling the Remove-OldBackup cmd-let.
         Please add a -Confirm if needed
-        Author: Paolo Frigo,  https://www.scriptinglibrary.com
 #>
  function Remove-OldBackup{
     [CmdletBinding()]
